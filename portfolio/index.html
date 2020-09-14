@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My awesome portfolio</title>
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <div class="site-main-wrapper">
+        <button class="hamberger">
+            <img src="./images/hamberger.svg" alt="">
+        </button>
+
+        <div class="mobile-nav">
+            <button class="times"><img src="./images/hamberger.svg" alt=""></button>
+            <ul>
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Experience</a></li>
+                <li><a href="#work">Activities</a></li>
+                <li><a href="#blog">Certification</a></li>
+            </ul>
+        </div>
+        <header>
+            <div class="container">
+                <nav id="main-nav" class="flex items-center justify-between">
+                    <div class="left flex items-center">
+                        <div class="branding">
+                            <img src="./images/logo123.png" height="50px" width="50px" alt="">
+                        </div>
+                        <div>
+                            <a href="#Home">Home</a>
+                            <a href="#about">About</a>
+                            <a href="#services">Experience</a>
+                            <a href="#work">Activities</a>
+                            <a href="#blog">Certification</a>
+                        </div>
+                    </div>
+                    <div class="right">
+                        <a href="#contact">
+                        <button class="btn btn-primary">Contact</button>
+                        </a>
+                    </div>
+                </nav>
+                <div id="Home" class="hero flex items-center justify-between">
+                    <div class="left flex-1 flex justify-center">
+                        <img src="./images/hero image.jpg" alt="">
+                    </div>
+                    <div class="right flex-1">
+                        <h6>SHAIK MOHAMMAD KHIZAR H.A</h6>
+                        <h1>I’m a Full Stack <span>Web Developer</span></h1>
+                        <p>I'm Looking for Job as a full stack web developer.
+                        I have a serious passion for Web development, animations
+                        and creating intuitive, dynamic user experience</p>
+                        <div>
+                        <a href="mycv.docx" download="mycv.docx">
+                            <button class="btn btn-secondary">DOWNLOAD CV</button>
+                        </a>    
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <section id="about" class="about">
+            <div class="container flex items-center about-inner-wrap">
+                <div class="flex-1">
+                    <img class="about-me-img" src="./images/aboutimg.jpg" alt="">
+                </div>
+                <div class="flex-1 right">
+                    <h1>About <span>Me</span></h1>
+                    <h3>Hello! i’m Shaik Mohammed Khizar.</h3>
+                    <p>I'm 22 years old, I stay in Bangalore. I have completed my Graduation from HKBK college of engineering in Electronics and communication.
+                     My interest lies in learning variety of different programming languages, new technologies and developments.
+                     I'm Passionate about web development and i'm a MEAN stack web developer.
+                     My Objective is to effectively utilize my technical knowledge and innate technical ability in a progressive environment that seeks to work for the industry or organisation.</p>
+                    <div class="social">
+                        <a href="https://www.instagram.com/invites/contact/?i=1ojk27iwn1uu0&utm_content=32xvbff"><img src="./images/instagramwicon.png" alt=""></a>
+                        <a href="https://www.facebook.com/shaikh.khizar.33"><img src="./images/fbiiicon.png" alt=""></a>
+                        <a href=" https://twitter.com/shaikhkhizar16?s=08"> <img src="./images/twitterwicon.png" alt=""></a>
+                        <a href="https://www.linkedin.com/in/shaikh-khizar-258432190"> <img src="./images/linkedinwicon.png" alt=""></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="services" class="services">
+            <div class="container">
+                <h1 class="section-heading"><span>My </span>Projects</h1>
+                <p>Have a look at my projects</p>
+                <div class="card-wrapper">
+                    <div class="card">
+                        <img src="./images/industrial-robot.png" width="100px" height="100px" alt="">
+                        <h2>Robotic system</h2>
+                        <p>Robot Aided Remote Medical Assistance System using NI LabVIEW.
+                        </p>
+                    </div>
+                    <div class="card">
+                        <img src="./images/web.png" width="100px" height="100px" alt="">
+                        <a href="https://shaik-khizar.github.io/godesigner/godesigner%20website/index1.html">
+                        <h2>Web Development</h2>
+                        <p>I Have developed many websites like portfolio websites,Blogs and other business websites.
+                        </p></a>
+                    </div>
+                    <div class="card">
+                        <img src="./images/arduino.png" width="100px" height="100px" alt="">
+                        <h2>Using Arduino</h2>
+                        <p>Accident Detection and Alerting System using GPS and GSM Modules
+                        </p>
+                    </div>
+                    <div class="card">
+                        <img src="./images/react.png" width="100px" height="100px" alt="">
+                        <h2>React.js</h2>
+                        <p>Contact Manager Application and Other clone websites
+                        </p>
+                    </div>
+                    <div class="card">
+                        <img src="./images/nodejs.png" height="100px" width="100px" alt="">
+                        <h2>node.js</h2>
+                        <p>Real Time Chat Application Project using Node.js
+                        </p>
+                    </div>
+                    <div class="card">
+                        <img src="./images/temperature-sensor.png" width="100px" height="100px" alt="">
+                        <h2>Temperature Sensing</h2>
+                        <p>Temperature Sensing using LM35 Temperature sensor and NI myDAQ.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="freelancer">
+            <h1>I Am Available For Freelancer.</h1>
+            <p>I Make high standard clean website for your business solutions</p>
+            <a href="mycv.docx" download="mycv.docx">
+            <button class="btn btn-primary">Download CV</button>
+            </a>
+        </section>
+        <section class="reviews">
+            <div class="container">
+                <h1 class="section-heading"><span>My</span> Education</h1>
+                <p>Have a look at my education details</p>
+                <div class="slider">
+                    <div class="slide">
+                        <img src="./images/hkbklogo.png" alt="">
+                        <p>"I have completed my Graduation from HKBK COLLEGE OF ENGINEERING in
+                            Electronics and communication branch with an aggregate of 60%."
+                           </p>
+                        
+                    </div>
+                    <div class="slide">
+                        <img src="./images/logosjpuc_v2.png" alt="">
+                        <p>"I have Completed my PU education from St.Josephs PU college in PCMB branch with an aggregate of 83% "</p>
+                        
+                    </div>
+                    <div class="slide">
+                        <img src="./images/nvnlogo.png" alt="">
+                        <p>"I have done my Schooling from Navodya Vidya Nikethana and my aggregate in SSLC was 82%."</p>
+                
+                    </div>
+                   <!--<div class="slide">
+                        <img src="./images/lady.png" alt="">
+                        <p>"Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+                            mollit anim id est laborum"</p>
+                        <span>- John Doel, Company ABC</span>
+                    </div>-->
+                </div>
+                <div class="slider-dots"></div>
+            </div>
+        </section>
+
+        <section id="work" class="work">
+            <div class="container">
+                <h1 class="section-heading"><span>Co-curricular</span> Activities</h1>
+                <p>I hav actively participated in many workshops, sports events and cultural
+                and technical events. </p>
+
+                <div class="card-wrapper">
+                    <div class="card">
+                        <div class="overlay">
+                            <a href="#">Workshops</a>
+                        </div>
+                        <img src="./images/workshop.jpg" alt="">
+                    </div>
+                    <div class="card">
+                        <div class="overlay">
+                            <a href="#">Cultural and non-cultural activities</a>
+                        </div>
+                        <img src="./images/cultural.jpeg" alt="">
+                    </div>
+                    <div class="card">
+                        <div class="overlay">
+                            <a href="#">Sports</a>
+                        </div>
+                        <img src="./images/sports.jpg" alt="">
+                    </div>
+                   <!-- <div class="card">
+                        <div class="overlay">
+                            <span>Category</span>
+                            <a href="#">Web development</a>
+                        </div>
+                        <img src="./images/ph-1.png" alt="">
+                    </div>
+                    <div class="card">
+                        <div class="overlay">
+                            <span>Category</span>
+                            <a href="#">Web development</a>
+                        </div>
+                        <img src="./images/ph-1.png" alt="">
+                    </div>
+                    <div class="card">
+                        <div class="overlay">
+                            <span>Category</span>
+                            <a href="#">Web development</a>
+                        </div>
+                        <img src="./images/ph-1.png" alt="">
+                    </div>-->
+                </div>
+            </div>
+        </section>
+        <section id="blog" class="blog">
+            <div class="container">
+                <h1 class="section-heading"><span>My</span> Certifications</h1>
+                <p>Have a look at my certifications</p>
+
+                <div class="card-wrapper">
+                    <div class="card">
+                        <div class="img-wrapper">
+                            <img src="./images/Coursera.jpg" alt="">
+                        </div>
+                        <div class="card-content">
+                            <a href="#">
+                                <h1>HTML, CSS and JavaScript for webdevelopers</h1>
+                            </a>
+                            <span>August, 2020</span>
+                            <p>In this Certified course i was able to Enhance my skills on 
+                            HTML5, CSS3 and JavaScript along with libraries like Ajax and JQuery. As a project, I build a restaurant website
+
+                           </p>
+                            <a href="#">credentials</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="img-wrapper">
+                            <img src="./images/simplii.jpg" alt="">
+                        </div>
+                        <div class="card-content">
+                            <a href="#">
+                                <h1>Full Stack Web development</h1>
+                            </a>
+                            <span>September, 2020</span>
+                            <p>In this certified training i learnt about software development and testing technologies like MEAN Stack. And I was able to build end-to-end application,test and deploy code and store data using MongoDB.</p>
+                            <a href="#">Credentials</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="img-wrapper">
+                            <img src="./images/vilogo1.png" alt="">
+                        </div>
+                        <div class="card-content">
+                            <a href="#">
+                                <h1>Graphical Labview programming</h1>
+                            </a>
+                            <span>August, 2019</span>
+                            <p>This is internship in a company named VIsolutions. The internship was on Graphical LabVIEW programming. Where i learnt labVIEW Software, industrial iot and Interfacing labVIEW software with sensors and industrial hardware like myDAQ and myRIO.</p>
+                            <a href="#">Credentials</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contact" class="contact">
+            <div class="container">
+                <h1 class="section-heading">Contact <span>Me</span></h1>
+                <p>I am actively looking for opportunities to work for an organisation </p>
+                <div class="card-wrapper">
+                    <div class="card">
+                        <img src="./images/phone.png" width="100px" height="100px" alt="">
+                        <h1>Call Me On</h1>
+                        <h6>+91 8861712268</h6>
+                    </div>
+                    <div class="card">
+                        <img src="./images/mail.png" width="100px" height="100px" alt="">
+                        <h1>Email Me At</h1>
+                        <h6>shaikhkhizar610m@gmail.com</h6>
+                    </div>
+                    <div class="card">
+                        <img src="./images/visit.png" width="100px" height="100px"alt="">
+                        <h1>Visit Me</h1>
+                        <h6>R.T Nagar, Bangalore, Karnataka, India</h6>
+                    </div>
+
+                </div>
+
+               <!-- <form action="">
+                    <div class="input-wrap">
+                        <input type="text" placeholder="Your Name *">
+                        <input type="email" placeholder="Your Email *">
+                    </div>
+                    <div class="input-wrap-2">
+                        <input type="text" placeholder="Your Subject...">
+                        <textarea name="" id="" cols="30" rows="10" placeholder="Your Message..."></textarea>
+                    </div>
+                    <div class="btn-wrapper">
+                        <button class="btn btn-primary">Send Message</button>
+                    </div>
+                </form>-->
+            </div>
+        </section>
+        <footer>
+            <img class="footer-logo" src="./images/logo123.png" height="100px" width="100px" alt="">
+            <div class="footer-socials">
+                <a href="https://www.linkedin.com/in/shaikh-khizar-258432190"><img src="./images/linkedinwicon.png" width="50px" height="50px" alt=""></a>
+                <a href="https://www.facebook.com/shaikh.khizar.33"><img src="./images/fbiiicon.png"width="50px" height="50px" alt=""></a>
+                <a href=" https://twitter.com/shaikhkhizar16?s=08"> <img src="./images/twitterwicon.png" width="50px" height="50px"alt=""></a>
+                <a href="https://in.pinterest.com/shaikhkhizar610m/"> <img src="./images/pinterest.png" width="50px" height="50px" alt=""></a>
+                <a href="https://www.instagram.com/invites/contact/?i=1ojk27iwn1uu0&utm_content=32xvbff"> <img src="./images/instagramwicon.png" width="50px" height="50px" alt=""></a>
+            </div>
+            <div class="copyright">
+                Copyright 2020 © Shaik Mohammad Khizar H.A<br>
+                <a href="#Home"> back to top</a>
+            </div>
+        </footer>
+    </div>
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="./js/app.js"></script>
+</body>
+
+</html>
