@@ -119,7 +119,7 @@ section.about h1{
 }
 section.about h1 span{
     color:var(--primary);
-}
+} 
 section.about h3{
     font-size: 1rem;
     margin-bottom:1rem;
@@ -495,7 +495,7 @@ footer .copyright{
    top:0;
    left:0;
    z-index:1001;
-   background:var(--light);
+  /* background:var(--light);*/
    width:100%;
    height:100%;
    padding:2rem;
@@ -510,6 +510,7 @@ footer .copyright{
    -moz-transition:all .5s ease-in-out;
    -ms-transition:all .5s ease-in-out;
    -o-transition:all .5s ease-in-out;
+   
 }
 .open{
     transform:translateX(0);
@@ -529,13 +530,15 @@ footer .copyright{
 }
 .times img{
     width:30px;
+    color: var(--pure);
+    background: pink;
 }
 
 .mobile-nav ul{
     list-style-type: none;
 }
 .mobile-nav ul li a{
-    color:var(--secondary);
+    color:pink;
     text-decoration:none;
     font-size: 2rem;
 }
@@ -581,14 +584,25 @@ footer .copyright{
         flex-direction: column;
     }
     header{
-        clip-path: polygon(0 0, 100% 0, 100% 100%, 69% 95%, 0 100%);
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 80% 90%, 0 100%);
+    }
+
+
     }
     .hero .right{
         position: absolute;
-        top:260px;
+        top:200px;
         padding:0 1rem;
         background:linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.9));
     }
+    .hero .right h6{
+        font-size: 1.5rem;
+    }
+
+    .hero .right h1{
+        font-size: 1.5rem;
+    }
+
     .hero .left{
         margin-top:-5rem;
         margin-right: -9rem;
